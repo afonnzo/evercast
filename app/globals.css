@@ -4,7 +4,7 @@
   padding: 0;
   margin: 0;
   margin-top: 0;
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   color: white;
   font-family: "Poppins";
 }
@@ -36,4 +36,28 @@ header {
   font-weight: 200;
   font-size: 12px;
   gap: 20px;
+}
+
+.containerText {
+  display: flex;
+  flex-direction: column;
+  width: 36%;
+  margin: 6em 0em 0em 6em;
+}
+
+.containerText > h1 {
+  font-size: 70px;
+}
+
+.containerText > p {
+  color: rgb(190, 190, 190);
+}
+
+.buttonText {
+  display: flex;
+  margin-top: 27px;
+}
+
+.imagemLateral {
+  margin-left: 100px;
 }
