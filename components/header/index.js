@@ -1,4 +1,5 @@
 import Raposa from "next/image";
+import { Button } from "../Button";
 
 export function Header() {
   return (
@@ -16,11 +17,10 @@ export function Header() {
           <li>CONTACT</li>
         </ul>
       </nav>
-
-      <nav id="buttonsHeader">
-        <button id="gtButton">GET STARTED</button>
-        <button id="SignIn">SIGN IN</button>
-      </nav>
+      <div>
+        <Button isTransparent={true}>GET STARTED</Button>
+        <Button>SIGN IN</Button>
+      </div>
     </header>
   );
 }

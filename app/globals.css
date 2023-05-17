@@ -37,20 +37,3 @@ header {
   font-size: 12px;
   gap: 20px;
 }
-
-#buttonsHeader {
-  display: flex;
-  align-self: flex-end;
-  gap: 60px;
-}
-
-#gtButton {
-  border: none;
-}
-
-#SignIn {
-  color: #ff5800;
-  border: solid 1px #ff5800;
-  border-radius: 5px;
-  padding: 7px 20px 7px 20px;
-}

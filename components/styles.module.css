@@ -1,0 +1,15 @@
+.Button {
+  color: #ff5800;
+  border: solid 1px #ff5800;
+  border-radius: 5px;
+  padding: 7px 20px 7px 20px;
+}
+
+.Button1 {
+  color: white !important;
+  border: none !important;
+}
+
+.borderRad {
+  border-radius: 30px;
+}
